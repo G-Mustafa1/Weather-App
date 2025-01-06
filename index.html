@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Weather App</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <div class="mein-contanir">
+      <div class="contanir">
+         <div class="contanir-1">
+            <input type="text" id="input">
+            <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+         </div>
+         <div class="contanir-2">
+            <div class="images">
+               <img id="img" src="img/cloud.png" alt="">
+               <div class="rain">
+                  <p id="temperature"> <span id="tem">0</span> <sup> °C</sup></p>
+                  <p id="detail">light rain</p>
+               </div>
+            </div>
+            <div class="wheather">
+               <div class="weather1">
+                  <div class="humidity2">
+                     <i class="fa-solid fa-droplet"></i>°<br>
+                     <span id="hum">45%</span>
+                     <p id="humd">Humidity</p>
+                  </div>
+               </div>
+               <div class="humidity2">
+                  <i class="fa-solid fa-wind"></i> <br>
+                  <span id="wind">45%Km/H</span>
+                  <p id="windd">wind Speed</p>
+               </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+body{
+   background-color: #222;
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mein-contanir{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.contanir{
+   background-color: #999;
+   padding: 30px 40px;
+   border-radius: 5px;
+}
+.contanir-1{
+   display: flex;
+   gap: 10px;
+   /* justify-content: space-evenly; */
+}
+.contanir-1 input{
+   border: none;
+   outline: none;
+   padding: 5px 10px;
+   font-size: 20px;
+   border-radius: 10px;
+   height: 35px;
+   width: 290px;
+}
+.contanir-1 button{
+   padding: 10px 15px;
+   border-radius: 50%;
+   border: none;
+   outline: none;
+   font-size: 18px;
+}
+.contanir-2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.images img{
+   width: 350px;
+}
+#temperature span{
+   font-size: 40px;
+   /* margin-top: 5px; */
+}
+#temperature sup{
+   font-size: 25px;
+   margin-left: 5px;
+   position: absolute;
+}
+#temperature{
+   position: relative;
+   margin-bottom: 0px;
+}
+.rain p{
+   margin-top: 0px;
+   text-align: center;
+   font-weight: bold;
+   font-size: 25px;
+   text-transform: capitalize;
+}
+.wheather{
+   display: flex;
+   width: 100%;
+   margin: 0px;
+   /* justify-content: space-around; */
+   justify-content: space-between;
+   /* justify-content: center; */
+   /* width: 100%; */
+}
+.weather1{
+   /* display: flex;
+   justify-content: space-around; */
+}
+.humidity2 p{
+   margin: 0px;
+   /* margin: b; */
+}
