@@ -1,5 +1,5 @@
 body{
-   background-color: #222;
+   background-color: #999;
    margin: 0px;
    padding: 0px;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,75 +10,164 @@ body{
    align-items: center;
    height: 100vh;
 }
+.chw{
+   /* color: #fff; */
+   /* width: 350px; */
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   background-color: #fff;
+   /* background-color: rgb(51, 73, 95); */
+   padding: 30px;
+   border-radius: 10px;
+}
 .contanir{
-   background-color: #999;
-   padding: 30px 40px;
-   border-radius: 5px;
+   color: #fff;
+   /* width: 350px; */
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   /* background-color: #fff; */
+   background-color: rgb(51, 73, 95);
+   padding: 30px;
+   border-radius: 10px;
+   transform: scale(1.1);
+   transition: 1.1;
 }
 .contanir-1{
    display: flex;
    gap: 10px;
-   /* justify-content: space-evenly; */
+   justify-content: space-between;
+   margin-bottom: 25px;
 }
 .contanir-1 input{
+   background-color: rgb(205, 230, 253);
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
    border: none;
    outline: none;
-   padding: 5px 10px;
+   padding: 5px 15px;
    font-size: 20px;
    border-radius: 10px;
    height: 35px;
-   width: 290px;
+   width: 270px;
+   cursor: pointer;
+   /* margin-bottom: 20px; */
 }
 .contanir-1 button{
+   background-color: rgb(250, 50, 50);
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   background: dro;
    padding: 10px 15px;
    border-radius: 50%;
    border: none;
    outline: none;
    font-size: 18px;
+   cursor: pointer;
+   color: #fff;
+}
+.contanir-1 button:hover{
+   background-color: rgb(197, 50, 50);
 }
 .contanir-2{
+   /* display: none; */
    display: flex;
    justify-content: center;
    align-items: center;
    flex-direction: column;
 }
+.contanir-3{
+   display: none;
+}
 .images img{
-   width: 350px;
+   transition: 1.1;
+   margin-top: 10px;
+   /* filter: drop-shadow(10px 10px 5px #d3d3d3); */
+   width: 200px;
 }
 #temperature span{
-   font-size: 40px;
-   /* margin-top: 5px; */
+   font-size: 70px;
+   margin-top: 10px;
+   margin-bottom: 0px;
 }
 #temperature sup{
-   font-size: 25px;
+   font-size: 40px;
    margin-left: 5px;
    position: absolute;
+   top: 10px;
 }
 #temperature{
    position: relative;
    margin-bottom: 0px;
 }
-.rain p{
+.rain #detail{
+   font-weight: 500;
    margin-top: 0px;
+   font-size: 25px;
+   margin-bottom: 0px;
+}
+.rain #Cit-nam{
+   margin-top: 0px;
+   font-size: 35px;
+}
+
+.rain p{
    text-align: center;
    font-weight: bold;
-   font-size: 25px;
    text-transform: capitalize;
 }
-.wheather{
+.weather{
    display: flex;
-   width: 100%;
-   margin: 0px;
-   /* justify-content: space-around; */
    justify-content: space-between;
-   /* justify-content: center; */
-   /* width: 100%; */
+   width: 100%;
+   /* margin: 0px; */
+}
+.weather2 p{
+   margin: 0px;
+}
+.weather1 i{
+   font-size: 25px;
 }
 .weather1{
-   /* display: flex;
-   justify-content: space-around; */
+   /* margin: 0px; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+   /* text-align: center; */
+   /* justify-content: center; */
 }
-.humidity2 p{
-   margin: 0px;
-   /* margin: b; */
+#not-found{
+   display: none;
+   /* display: flex; */
+   align-items: center;
+   flex-direction: column;
+   gap: 10px;
+   /* justify-content: center; */
+   /* display: none; */
+}
+#not-found h1{
+   font-size: 35px;
+}
+#not-found img{
+   width: 200px;
+}
+@media(max-width: 450px){
+   .contanir-1 input{
+      width: 200px;
+      height: 25px;
+   }
+   #temperature span{
+      font-size: 55px;
+   }
+   .rain #detail{
+      font-size: 25px;
+   }
+   .images img{
+      width: 150px;
+   }
+   .contanir-1 button{
+      padding: 5px 10px;
+   }
+   #temperature sup{
+      font-size: 30px;
+   }
+   #not-found h1{
+      font-size: 30px;
+   }
 }
