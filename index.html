@@ -9,37 +9,44 @@
 </head>
 <body>
    <div class="mein-contanir">
-      <div class="contanir">
+      <div id="contanir" class="contanir">
          <div class="contanir-1">
-            <input type="text" id="input">
+            <input type="text" id="input" placeholder="Enter your location">
             <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
          </div>
-         <div class="contanir-2">
+         <div id="not-found">
+            <h1>Sorry location not <br> found!!</h1>
+            <img src="img/404.png" alt="">
+         </div>
+         <div id="contanir-2" class="contanir-2">
             <div class="images">
-               <img id="img" src="img/cloud.png" alt="">
+               <img id="img" src="img/gif.gif" alt="">
                <div class="rain">
-                  <p id="temperature"> <span id="tem">0</span> <sup> °C</sup></p>
-                  <p id="detail">light rain</p>
+                  <p id="temperature"><span id="tem"> 0</span><sup> °C</sup></p>
+                  <p id="detail"></p>
+                  <p id="Cit-nam">Weather App</p>
                </div>
             </div>
-            <div class="wheather">
+            <div class="weather">
                <div class="weather1">
-                  <div class="humidity2">
-                     <i class="fa-solid fa-droplet"></i>°<br>
-                     <span id="hum">45%</span>
-                     <p id="humd">Humidity</p>
+                  <i class="fa-solid fa-droplet"></i>
+               <div class="weather2">
+                  <span id="hum">45%</span>
+                  <p id="humd">Humidity</p>
+               </div>
+               </div>
+               <div class="weather1">
+                  <i class="fa-solid fa-wind"></i>
+                  <div class="weather2">
+                     <span id="wind">45Km/H</span>
+                     <p id="windd">Wind Speed</p>
                   </div>
-               </div>
-               <div class="humidity2">
-                  <i class="fa-solid fa-wind"></i> <br>
-                  <span id="wind">45%Km/H</span>
-                  <p id="windd">wind Speed</p>
-               </div>
                </div>
             </div>
          </div>
       </div>
    </div>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
    <script src="app.js"></script>
 </body>
 </html>
