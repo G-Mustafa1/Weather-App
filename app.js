@@ -49,6 +49,9 @@ async function checkweather(city) {
    wind.innerText = `${res.wind.speed}Km/H`;
 
    switch (res.weather[0].main) {
+       case 'Smoke':
+         img.src = 'img/smoke.png';
+          break;
       case 'Haze':
          img.src = 'img/haze.png';
          break;
