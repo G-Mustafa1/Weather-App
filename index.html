@@ -4,11 +4,13 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Weather App</title>
+   <link rel="shortcut icon" href="https://cdn2.iconfinder.com/data/icons/weather-flat-14/64/weather02-512.png" type="image/x-icon">
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-   <div class="mein-contanir">
+   <div class="mein">
+   <div id="dark-mode" class="mein-contanir">
       <div id="contanir" class="contanir">
          <div class="contanir-1">
             <input type="text" id="input" placeholder="Enter your location">
@@ -16,7 +18,7 @@
          </div>
          <div id="not-found">
             <h1>Sorry location not <br> found!!</h1>
-            <img src="img/404.png" alt="">
+            <img id="img-404" src="img/404.png" alt="">
          </div>
          <div id="contanir-2" class="contanir-2">
             <div class="images">
@@ -45,6 +47,7 @@
             </div>
          </div>
       </div>
+   </div>
    </div>
    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
    <script src="app.js"></script>
