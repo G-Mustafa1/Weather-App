@@ -23,7 +23,7 @@
 
 <h2>🛠️ Built With</h2>
 <ul>
-  <li><b>HTML:</b>b> Structure of the app.</li>
+  <li><b>HTML:</b> Structure of the app.</li>
   <li><b>CSS:</b> Styling and responsiveness.</li>
   <li><b>JavaScript:</b> Fetching API data and dynamic interactions.</li>
 </ul>
