@@ -1,4 +1,4 @@
-const mein = document.querySelector('.mein')
+const mein = document.querySelector('.mein');
 const contanir = document.getElementById('contanir');
 const darkMode = document.getElementById('dark-mode');
 const input = document.getElementById('input');
